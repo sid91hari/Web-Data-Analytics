@@ -70,19 +70,13 @@ Review_count	- Number of reviews for a restaurant
 
 
 2. The Dummy_Live variable indicates whether the restaurant has only live music or other types of music
-3. A simple linear regression is performed considering three models
+3. A T-test is performed considering three models
 
 a. Avg. Rating vs Dummy_Live
 b. Avg_Sent_Score vs Dummy_Live
 c. Review_count vs Dummy_Live
 
-4. Across all models, the Dummy_Live show a positive impact on average rating, average sentiment score and number of reviews
+4. Across all models, the Dummy_Live show a positive and significant impact on average rating, average sentiment score and number of reviews
 
-Final equations:
-
-Avg. Rating = 3.61361 + 0.20552 * (Dummy_Live)
-Avg_Sent_Score = 0.224711 + 0.048535 * (Dummy_Live)
-Review_count = 217.50 + 271.34 * (Dummy_Live)
-
-A T-test is done on impact of revenue on Live Music bars.
+A T-test is also done on impact of revenue on Live Music bars.
 We find that revenue is significant.
