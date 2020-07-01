@@ -47,7 +47,7 @@ Approx run time: 5 minutes
 1. The CSV file containing the average sentiment score is loaded as a data frame
 2. The restaurant data and the average sentiment score is merged
 3. Average rating and number of reviews are calculated and aggregated at restaurant level
-4. The final data is stored as CSV file for performing Linear Regression in R
+4. The final data is stored as CSV file for performing T-test in R
 
 
 ---------------------------------------------------------------------------
